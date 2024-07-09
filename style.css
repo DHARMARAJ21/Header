@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(188, 239, 243);
+    display: inline;
+}
+nav,ul{
+    display: flex;
+    gap: 5rem;
+    font-size: 25px;
+    background-color: rgb(12, 168, 230);
+    list-style: none;
+    justify-content: center;
+    color: white;
+}
+nav{
+    padding: 10px;
+}
+li:hover{
+    color: black;
+    cursor: pointer;
+}
